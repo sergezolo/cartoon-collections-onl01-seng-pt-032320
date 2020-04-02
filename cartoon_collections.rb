@@ -5,10 +5,10 @@ end
 def summon_captain_planet(array)
   i = 0
   sum_array = []
-  while i < array.length
-  sum_array << array[i].capi
-  
-  # Your code here
+    while i < array.length
+      sum_array.collect("#{array[i].capitalize}!"
+    end
+  sum_array
 end
 
 def long_planeteer_calls# code an argument here
